@@ -30,11 +30,11 @@ Members are encouraged to keep their streak alive — if they skip a day, their 
 ```
 
 ### Example `log.csv`
-| timestamp           | user   | message                 | intent | response |
-|---------------------|--------|-------------------------|--------|----------|
-| 2025-09-29 08:12:00 | alice  | I’m feeling motivated!  | share  | ...      |
-| 2025-09-30 09:45:00 | alice  | Another good day!       | share  | ...      |
-| 2025-10-01 14:02:00 | bob    | Struggling a little...  | share  | ...      |
+| timestamp           | user   | message                 
+|---------------------|--------|-------------------------|
+| 2025-09-29 08:12:00 | alice  | I’m feeling motivated!  | 
+| 2025-09-30 09:45:00 | alice  | Another good day!       |
+| 2025-10-01 14:02:00 | bob    | Struggling a little...  |
 
 ### Example `users.csv`
 | user   | phonenumber |
