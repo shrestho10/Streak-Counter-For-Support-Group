@@ -48,8 +48,8 @@ Members are encouraged to keep their streak alive — if they skip a day, their 
 
 1. Clone the repo:
    ```bash
-   git clone 
-   cd newme-streak-notifier
+   git clone https://github.com/shrestho10/Streak-Counter-For-Support-Group.git
+   cd Streak-Counter-For-Support-Group
    ```
 
 2. Install dependencies:
@@ -65,5 +65,31 @@ Members are encouraged to keep their streak alive — if they skip a day, their 
    ```
 
 
+4. Run the script:
+   ```bash
+   python streaks.py
+   ```
+
+The script will keep running and automatically check at **00:01 AM daily**.  
+
+---
+
+## 🕒 Scheduling & Timezones
+- By default, the script runs based on **server local time**.  
+- If users are in different timezones, add a `timezone` column in `users.csv` and adjust timestamps accordingly.
+
+---
+
+## 📬 Example SMS
+```
+Congratulations! You have a 3-day streak with your NewMe support group. 
+Post again today to continue your streak!
+```
+
+---
+
+## 🚀 Future Improvements
+- Add per-user timezone support.
+- Persist streaks in a database instead of recalculating from CSV each day.
 
 
